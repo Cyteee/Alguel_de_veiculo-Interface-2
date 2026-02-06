@@ -1,6 +1,6 @@
 package model.entities.services;
 
-public class ServicoDeImposto {
+public interface ServicoDeImposto {
 
     double imposto(double quantia);
 }
